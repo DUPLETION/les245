@@ -43,7 +43,7 @@ public class Main {
         DateTimeFormatter formatter2 = DateTimeFormatter.ofPattern("MM/dd/yyyy hh:mm:ss a");
         LocalDateTime date3 = LocalDateTime.parse(strDate, formatter2);
         System.out.println(formatter2.format(date3));
-
+//fefe
         //date3.withDayOfMonth(20) - аналог сета
 
     }
